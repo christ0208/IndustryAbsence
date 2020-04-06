@@ -5,6 +5,7 @@ Prerequisites:
 - Install Python-Dotenv (pip install python-dotenv)
 
 How to Use:
+- Copy ".env.example" and create ".env" file with ".env.example" file content as the content.
 - Edit .env, 3 first line is for login, 5 last lines for fill log book
 - For "PASS" part in .env, encode password with base64 algorithm
 - Execute main.py (python main.py)
